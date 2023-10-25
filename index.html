@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Livros</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        .divs{
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="titleInput">
+    <input type="number" id="number" min="1" max="5" value="1" width="50%">
+    <input type="submit" id="submit" onclick="resetBooks()">
+    <div style="display: flex">
+        <div class="divs">
+            <h1 id="title1"></h1>
+            <img id="image1" width="200" height="auto">
+        </div>
+        <div class="divs">
+            <h1 id="title2"></h1>
+            <img id="image2" width="200" height="auto">
+        </div>
+        <div class="divs">
+            <h1 id="title3"></h1>
+            <img id="image3" width="200" height="auto">
+        </div>
+        <div class="divs">
+            <h1 id="title4"></h1>
+            <img id="image4" width="200" height="auto">
+        </div>
+        <div class="divs">
+            <h1 id="title5"></h1>
+            <img id="image5" width="200" height="auto">
+        </div>
+    </div>
+</body>
+</html>
